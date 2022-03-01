@@ -4,7 +4,7 @@ const router = app.Router();
 const Types = require('../shared/Types') // Model types
 
 //taskcontroller
-const forum_postController = require('../controllers/taskController');
+const taskController = require('../controllers/taskController');
 
 
 // Create
@@ -16,5 +16,7 @@ router.get('/', taskController.getAll);
 // Delete
 router.delete('/:id', taskController.deleteById);
 
+// Update
+router.put('/', taskController.updateById);
 
 module.exports = router;

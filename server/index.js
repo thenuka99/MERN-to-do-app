@@ -1,13 +1,15 @@
-const express = require('express');
-const cors = require('cors');
-const connection = require('./db');
-const router = require('./routes/taskRoutes');
+const tasks = require("./routes/tasks");
+const connection = require("./db");
+const cors = require("cors");
+const express = require("express");
+const app = express();
 
 connection();
-const app = express()
-app.use(cors())
 
-app.use('api/tasks',router);
+app.use(express.json());
+app.use(cors());
 
-const port=process.env.PORT||5000;
-app.listen(port,()=>console.log('listening on port ${port}....'))
+app.use("/api/tasks", tasks);
+
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log(`Listening on port ${port}...`));

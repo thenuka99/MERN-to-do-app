@@ -19,13 +19,13 @@ MERN-to-do-app
 ├── client                    // Frontend
 |   ├── public                // Public folder
 |   ├── src                   // Add all the mongoose models here
-|	|    ├── assets           // Assets folder
-|	|    ├── components       // Components folder. Add all sub components here
-|	|    ├── constants        // Add Constant files here
-|	|    ├── pages            // Main pages folder such as About Page, Landing Page etc.
-|	|    ├── services         // Services folder
-|	|    ├── App.js           // App.js
-|	|    └── index.js         // index.js file. Add context providers here to wrap the whole app
+| 	|    ├── assets           // Assets folder
+| 	|    ├── components       // Components folder. Add all sub components here
+| 	|    ├── constants        // Add Constant files here
+|	  |    ├── pages            // Main pages folder such as About Page, Landing Page etc.
+| 	|    ├── services         // Services folder
+|	  |    ├── App.js           // App.js
+| 	|    └── index.js         // index.js file. Add context providers here to wrap the whole app
 |   ├── .gitignore            // Gitignore file
 |   └── package.json          // node module dependencies
 ├── server                    //Backend

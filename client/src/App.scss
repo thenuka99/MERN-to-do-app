@@ -1,0 +1,35 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #f5f5f5;
+  .container {
+    width: 400px;
+    min-height: 500px;
+    padding: 10px;
+    .heading {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .taskContainer {
+      margin: 10px 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

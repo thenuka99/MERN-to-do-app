@@ -8,7 +8,9 @@ Individual feature branches will be made upon request.
 
 1. NodeJS express sever.
 1. MongoDB.
-1. Redis to store refresh tokens.
+1. React.
+1. mui/material.
+1. Sass.
 
 ## Folder/file structure
 
